@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ungap/create-content.git"
+    "url": "git+https://github.com/ungap/promise-any.git"
   },
   "bugs": {
-    "url": "https://github.com/ungap/create-content/issues"
+    "url": "https://github.com/ungap/promise-any/issues"
   },
-  "homepage": "https://github.com/ungap/create-content#readme"
+  "homepage": "https://github.com/ungap/promise-any#readme"
 }
