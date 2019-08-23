@@ -3,7 +3,7 @@ var any = Promise.any || function ($) {
     A = [];
     L = $.map(function ($, i) {
       return Promise.resolve($).then(D, function (O) {
-        return ((A[i] = O), --L) || E(A);
+        return ((A[i] = O), --L) || E({errors: A});
       });
     }).length;
   });

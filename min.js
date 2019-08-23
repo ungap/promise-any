@@ -1,1 +1,1 @@
-var any=Promise.any||function(n){return new Promise(function(r,t,o,i){o=[],i=n.map(function(n,e){return Promise.resolve(n).then(r,function(n){return o[e]=n,--i||t(o)})}).length})};
+var any=Promise.any||function(n){return new Promise(function(e,o,t,i){t=[],i=n.map(function(n,r){return Promise.resolve(n).then(e,function(n){return t[r]=n,--i||o({errors:t})})}).length})};
