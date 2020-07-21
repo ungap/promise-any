@@ -1,4 +1,4 @@
-var any = Promise.any || function ($) {
+var any = (Promise.any || function ($) {
   return new Promise(function (D, E, A, L) {
     A = [];
     L = $.map(function ($, i) {
@@ -7,4 +7,4 @@ var any = Promise.any || function ($) {
       });
     }).length;
   });
-};
+}).bind(Promise);
